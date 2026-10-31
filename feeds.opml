@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head><title>Eesti uudiste algallikad – Uudised.ai</title><ownerName>Uudised.ai</ownerName></head>
+  <body>
+    <outline text="Riik ja turvalisus" title="Riik ja turvalisus">
+      <outline type="rss" text="Riigikontroll" title="Riigikontroll" xmlUrl="https://www.riigikontroll.ee/rss-feeds/rss.xml" htmlUrl="https://www.riigikontroll.ee/" />
+      <outline type="rss" text="Vabariigi President" title="Vabariigi President" xmlUrl="https://president.ee/rss-feeds/rss.xml" htmlUrl="https://president.ee/" />
+      <outline type="rss" text="Kriis.ee" title="Kriis.ee" xmlUrl="https://www.kriis.ee/rss-feeds/rss.xml" htmlUrl="https://www.kriis.ee/" />
+    </outline>
+    <outline text="Raha ja töö" title="Raha ja töö">
+      <outline type="rss" text="Finantsinspektsioon" title="Finantsinspektsioon" xmlUrl="https://www.fi.ee/et/uudised/rss" htmlUrl="https://www.fi.ee/et" />
+      <outline type="rss" text="Riigi Tugiteenuste Keskus" title="Riigi Tugiteenuste Keskus" xmlUrl="https://www.rtk.ee/rss-feeds/rss.xml" htmlUrl="https://www.rtk.ee/" />
+      <outline type="rss" text="Tööinspektsioon" title="Tööinspektsioon" xmlUrl="https://www.ti.ee/rss-feeds/rss.xml" htmlUrl="https://www.ti.ee/" />
+      <outline type="rss" text="Eesti Toiduainetööstuse Liit" title="Eesti Toiduainetööstuse Liit" xmlUrl="https://toiduliit.ee/feed/" htmlUrl="https://toiduliit.ee/" />
+    </outline>
+    <outline text="Tervis ja haridus" title="Tervis ja haridus">
+      <outline type="rss" text="Tervisekassa" title="Tervisekassa" xmlUrl="https://tervisekassa.ee/rss.xml" htmlUrl="https://tervisekassa.ee/uudised" />
+      <outline type="rss" text="Sotsiaalkindlustusamet" title="Sotsiaalkindlustusamet" xmlUrl="https://www.sotsiaalkindlustusamet.ee/rss-feeds/rss.xml" htmlUrl="https://www.sotsiaalkindlustusamet.ee/" />
+      <outline type="rss" text="Põhja-Eesti Regionaalhaigla" title="Põhja-Eesti Regionaalhaigla" xmlUrl="https://www.regionaalhaigla.ee/rss-feeds/rss.xml" htmlUrl="https://www.regionaalhaigla.ee/" />
+      <outline type="rss" text="Valga Haigla" title="Valga Haigla" xmlUrl="https://valgahaigla.ee/feed/" htmlUrl="https://valgahaigla.ee/" />
+      <outline type="rss" text="Tartu Tervishoiu Kõrgkool" title="Tartu Tervishoiu Kõrgkool" xmlUrl="https://www.tartuh.ee/feed/" htmlUrl="https://www.tartuh.ee/" />
+    </outline>
+    <outline text="Keskkond" title="Keskkond">
+      <outline type="rss" text="Maa- ja Ruumiamet" title="Maa- ja Ruumiamet" xmlUrl="https://maaruum.ee/rss-feeds/rss.xml" htmlUrl="https://maaruum.ee/" />
+      <outline type="rss" text="Eesti Roheline Liikumine" title="Eesti Roheline Liikumine" xmlUrl="https://roheline.ee/feed/" htmlUrl="https://roheline.ee/" />
+    </outline>
+    <outline text="Linnad ja vallad" title="Linnad ja vallad">
+      <outline type="rss" text="Pärnu linn" title="Pärnu linn" xmlUrl="https://parnu.ee/rss-feeds/rss.xml" htmlUrl="https://parnu.ee/" />
+      <outline type="rss" text="Rakvere linn" title="Rakvere linn" xmlUrl="https://www.rakvere.ee/rss-feeds/rss.xml" htmlUrl="https://www.rakvere.ee/" />
+      <outline type="rss" text="Haapsalu linn" title="Haapsalu linn" xmlUrl="https://haapsalu.ee/feed/" htmlUrl="https://haapsalu.ee/" />
+      <outline type="rss" text="Valga vald" title="Valga vald" xmlUrl="https://valga.ee/feed/" htmlUrl="https://valga.ee/" />
+      <outline type="rss" text="Võru linn" title="Võru linn" xmlUrl="https://www.voru.ee/rss-feeds/rss.xml" htmlUrl="https://www.voru.ee/" />
+      <outline type="rss" text="Paide linn" title="Paide linn" xmlUrl="https://paide.ee/feed/" htmlUrl="https://paide.ee/" />
+      <outline type="rss" text="Rae vald" title="Rae vald" xmlUrl="https://www.rae.ee/rss-feeds/rss.xml" htmlUrl="https://www.rae.ee/" />
+      <outline type="rss" text="Viimsi vald" title="Viimsi vald" xmlUrl="https://viimsi.ee/rss-feeds/rss.xml" htmlUrl="https://viimsi.ee/" />
+      <outline type="rss" text="Räpina vald" title="Räpina vald" xmlUrl="https://www.rapina.ee/feed/" htmlUrl="https://www.rapina.ee/" />
+      <outline type="rss" text="Saue vald" title="Saue vald" xmlUrl="https://www.sauevald.ee/rss-feeds/rss.xml" htmlUrl="https://www.sauevald.ee/" />
+    </outline>
+    <outline text="Sport" title="Sport">
+      <outline type="rss" text="Eesti Sõudeliit" title="Eesti Sõudeliit" xmlUrl="https://www.soudeliit.ee/feed/" htmlUrl="https://www.soudeliit.ee/" />
+      <outline type="rss" text="Eesti Triatloni Liit" title="Eesti Triatloni Liit" xmlUrl="https://www.triatlon.ee/feed/" htmlUrl="https://www.triatlon.ee/" />
+      <outline type="rss" text="Eesti Judoliit" title="Eesti Judoliit" xmlUrl="https://judo.ee/feed/" htmlUrl="https://judo.ee/" />
+      <outline type="rss" text="Eesti Purjetamise Liit" title="Eesti Purjetamise Liit" xmlUrl="https://puri.ee/feed/" htmlUrl="https://puri.ee/" />
+      <outline type="rss" text="Tartu Ülikooli korvpallimeeskond" title="Tartu Ülikooli korvpallimeeskond" xmlUrl="https://basket.ut.ee/feed/" htmlUrl="https://basket.ut.ee/" />
+      <outline type="rss" text="Korvpalliklubi Kalev" title="Korvpalliklubi Kalev" xmlUrl="https://bckalev.ee/feed/" htmlUrl="https://bckalev.ee/" />
+      <outline type="rss" text="Eesti Uisuliit" title="Eesti Uisuliit" xmlUrl="https://www.uisuliit.ee/uudised.rss" htmlUrl="https://www.uisuliit.ee/uudised" />
+    </outline>
+    <outline text="Kultuur ja muusika" title="Kultuur ja muusika">
+      <outline type="rss" text="Eesti Noorsooteater" title="Eesti Noorsooteater" xmlUrl="https://www.eestinoorsooteater.ee/feed/" htmlUrl="https://www.eestinoorsooteater.ee/" />
+      <outline type="rss" text="Eesti Joonisfilm" title="Eesti Joonisfilm" xmlUrl="https://joonisfilm.ee/feed/" htmlUrl="https://joonisfilm.ee/" />
+      <outline type="rss" text="Eesti Pärimusmuusika Keskus" title="Eesti Pärimusmuusika Keskus" xmlUrl="https://folk.ee/uudised.rss" htmlUrl="https://folk.ee/uudised" />
+      <outline type="rss" text="Eesti Jazzliit" title="Eesti Jazzliit" xmlUrl="https://jazz.ee/feed/" htmlUrl="https://jazz.ee/" />
+      <outline type="rss" text="Eesti Disainerite Liit" title="Eesti Disainerite Liit" xmlUrl="https://www.edl.ee/uudised.rss" htmlUrl="https://www.edl.ee/uudised" />
+      <outline type="rss" text="Tallinn Fashion Week" title="Tallinn Fashion Week" xmlUrl="https://tfw.ee/feed/" htmlUrl="https://tfw.ee/" />
+      <outline type="rss" text="Eesti Muusikaauhinnad" title="Eesti Muusikaauhinnad" xmlUrl="https://www.muusikaauhinnad.eu/feed/" htmlUrl="https://www.muusikaauhinnad.eu/" />
+      <outline type="rss" text="Moonwalk" title="Moonwalk" xmlUrl="https://www.moonwalk.ee/blog?format=rss" htmlUrl="https://www.moonwalk.ee/blog" />
+      <outline type="rss" text="Legendaarne Records" title="Legendaarne Records" xmlUrl="https://legendaarne.ee/feed/" htmlUrl="https://legendaarne.ee/" />
+    </outline>
+  </body>
+</opml>
