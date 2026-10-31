@@ -1,0 +1,501 @@
+{
+  "title": "Eesti uudiste algallikad",
+  "language": "et",
+  "curatedBy": {
+    "name": "Uudised.ai",
+    "url": "https://uudised.ai/",
+    "directoryURL": "https://uudised.ai/allikad"
+  },
+  "topics": [
+    {
+      "id": "riik",
+      "name": "Riik ja turvalisus"
+    },
+    {
+      "id": "raha",
+      "name": "Raha ja töö"
+    },
+    {
+      "id": "tervis",
+      "name": "Tervis ja haridus"
+    },
+    {
+      "id": "keskkond",
+      "name": "Keskkond"
+    },
+    {
+      "id": "kohalik",
+      "name": "Linnad ja vallad"
+    },
+    {
+      "id": "sport",
+      "name": "Sport"
+    },
+    {
+      "id": "kultuur",
+      "name": "Kultuur ja muusika"
+    }
+  ],
+  "sources": [
+    {
+      "id": "riigikontroll",
+      "name": "Riigikontroll",
+      "topic": "riik",
+      "language": "et",
+      "url": "https://www.riigikontroll.ee/",
+      "feedURL": "https://www.riigikontroll.ee/rss-feeds/rss.xml",
+      "reviewedAt": "2026-10-15",
+      "description": "Auditid riigi ja kohalike omavalitsuste raha kasutamise kohta.",
+      "check": "Vaata auditi uurimisperioodi ning erista kontrollitud leid, soovitus ja asutuse vastus."
+    },
+    {
+      "id": "president",
+      "name": "Vabariigi President",
+      "topic": "riik",
+      "language": "et",
+      "url": "https://president.ee/",
+      "feedURL": "https://president.ee/rss-feeds/rss.xml",
+      "reviewedAt": "2026-10-15",
+      "description": "Presidendi kõned, avaldused, kohtumised ja kantselei teated.",
+      "check": "Erista kõneleja seisukohta, kohtumise toimumist ja tegelikult sõlmitud kokkulepet."
+    },
+    {
+      "id": "kriis",
+      "name": "Kriis.ee",
+      "topic": "riik",
+      "language": "et",
+      "url": "https://www.kriis.ee/",
+      "feedURL": "https://www.kriis.ee/rss-feeds/rss.xml",
+      "reviewedAt": "2026-10-15",
+      "description": "Riigi kriisiinfo ja elanikele suunatud ametlikud teated.",
+      "check": "Kontrolli juhise kehtivat piirkonda ja ajavahemikku ning seda, kas ilmunud on uuem teade."
+    },
+    {
+      "id": "politsei",
+      "name": "Politsei- ja Piirivalveamet",
+      "topic": "riik",
+      "language": "et",
+      "url": "https://www.politsei.ee/et/uudised",
+      "reviewedAt": "2026-10-31",
+      "description": "Politsei uudised, ööpäevainfo ja avalikud üleskutsed.",
+      "check": "Tee vahet kahtlustusel, menetlusel ja jõustunud kohtuotsusel; esialgne info võib täpsustuda."
+    },
+    {
+      "id": "paasteamet",
+      "name": "Päästeamet",
+      "topic": "riik",
+      "language": "et",
+      "url": "https://www.rescue.ee/et/uudised",
+      "reviewedAt": "2026-10-31",
+      "description": "Päästesündmused, ohuteated ja ameti pressiteated.",
+      "check": "Vaata sündmuse asukohta, tegelikku toimumisaega ja viimast täpsustust, mitte ainult lehe uuendamisaega."
+    },
+    {
+      "id": "finantsinspektsioon",
+      "name": "Finantsinspektsioon",
+      "topic": "raha",
+      "language": "et",
+      "url": "https://www.fi.ee/et",
+      "feedURL": "https://www.fi.ee/et/uudised/rss",
+      "reviewedAt": "2026-10-15",
+      "description": "Finantsjärelevalve otsused ja hoiatused teenusepakkujate kohta.",
+      "check": "Võrdle täpset ettevõttenime ja tegevusloa ulatust; hoiatus ei kirjelda kõiki samanimelisi teenuseid."
+    },
+    {
+      "id": "rtk",
+      "name": "Riigi Tugiteenuste Keskus",
+      "topic": "raha",
+      "language": "et",
+      "url": "https://www.rtk.ee/",
+      "feedURL": "https://www.rtk.ee/rss-feeds/rss.xml",
+      "reviewedAt": "2026-10-15",
+      "description": "Toetusvoorud, avaliku sektori teenused ja rahastamisotsused.",
+      "check": "Erista vooru avanemist taotluse rahuldamisest ning kontrolli toetuse saaja tingimusi ja tähtaega."
+    },
+    {
+      "id": "tooinspektsioon",
+      "name": "Tööinspektsioon",
+      "topic": "raha",
+      "language": "et",
+      "url": "https://www.ti.ee/",
+      "feedURL": "https://www.ti.ee/rss-feeds/rss.xml",
+      "reviewedAt": "2026-10-15",
+      "description": "Töökeskkond, tööohutus ja töösuhetega seotud ametlikud selgitused.",
+      "check": "Kontrolli, kas kirjeldatakse kehtivat nõuet, tulevast muudatust või soovituslikku juhist."
+    },
+    {
+      "id": "toiduliit",
+      "name": "Eesti Toiduainetööstuse Liit",
+      "topic": "raha",
+      "language": "et",
+      "url": "https://toiduliit.ee/",
+      "feedURL": "https://toiduliit.ee/feed/",
+      "reviewedAt": "2026-10-15",
+      "description": "Toidutööstuse erialaliidu teated, valdkonna seisukohad ja ettevõtteuudised.",
+      "check": "Liit esindab oma liikmeid: otsi turgu või hindu puudutava väite juurest andmeallikat ja ajavahemikku."
+    },
+    {
+      "id": "tervisekassa",
+      "name": "Tervisekassa",
+      "topic": "tervis",
+      "language": "et",
+      "url": "https://tervisekassa.ee/uudised",
+      "feedURL": "https://tervisekassa.ee/rss.xml",
+      "reviewedAt": "2026-10-15",
+      "description": "Ravikindlustuse, hüvitiste ja tervishoiuteenuste korralduse teated.",
+      "check": "Kontrolli, kellele muudatus laieneb ja mis kuupäevast see kehtib; üldteade ei kirjelda iga inimese juhtumit."
+    },
+    {
+      "id": "sotsiaalkindlustusamet",
+      "name": "Sotsiaalkindlustusamet",
+      "topic": "tervis",
+      "language": "et",
+      "url": "https://www.sotsiaalkindlustusamet.ee/",
+      "feedURL": "https://www.sotsiaalkindlustusamet.ee/rss-feeds/rss.xml",
+      "reviewedAt": "2026-10-15",
+      "description": "Pensionide, peretoetuste, sotsiaalteenuste ja ohvriabi ametlik info.",
+      "check": "Vaata toetuse tingimusi, taotlemise vajadust ja jõustumisaega; väljakuulutatud muudatus ei pruugi veel kehtida."
+    },
+    {
+      "id": "regionaalhaigla",
+      "name": "Põhja-Eesti Regionaalhaigla",
+      "topic": "tervis",
+      "language": "et",
+      "url": "https://www.regionaalhaigla.ee/",
+      "feedURL": "https://www.regionaalhaigla.ee/rss-feeds/rss.xml",
+      "reviewedAt": "2026-10-15",
+      "description": "Haigla teenuste, ravikorralduse ja teadustöö enda teated.",
+      "check": "Erista ühe haigla teenusemuudatust üleriigilisest korraldusest; uuringu tulemusel otsi uuringu enda viidet."
+    },
+    {
+      "id": "valga-haigla",
+      "name": "Valga Haigla",
+      "topic": "tervis",
+      "language": "et",
+      "url": "https://valgahaigla.ee/",
+      "feedURL": "https://valgahaigla.ee/feed/",
+      "reviewedAt": "2026-10-15",
+      "description": "Valga haigla teenused, vastuvõtukorraldus ja kohalik tervishoiuinfo.",
+      "check": "Kontrolli teenuse täpset asukohta, vastuvõtu kuupäeva ja seda, kas teade puudutab ajutist või püsivat muutust."
+    },
+    {
+      "id": "tartu-tervishoiu-korgkool",
+      "name": "Tartu Tervishoiu Kõrgkool",
+      "topic": "tervis",
+      "language": "et",
+      "url": "https://www.tartuh.ee/",
+      "feedURL": "https://www.tartuh.ee/feed/",
+      "reviewedAt": "2026-10-15",
+      "description": "Kõrgkooli õppe, teadustöö ja tervishoiuhariduse uudised.",
+      "check": "Õppevõimaluse juures vaata õppekava, vastuvõtutingimusi ja tähtaega; projektiteade ei ole veel uuringutulemus."
+    },
+    {
+      "id": "maa-ja-ruumiamet",
+      "name": "Maa- ja Ruumiamet",
+      "topic": "keskkond",
+      "language": "et",
+      "url": "https://maaruum.ee/",
+      "feedURL": "https://maaruum.ee/rss-feeds/rss.xml",
+      "reviewedAt": "2026-10-15",
+      "description": "Maa-, ruumi- ja kaardiandmete ning maakorralduse teated.",
+      "check": "Vaata kaardi või andmestiku seisukuupäeva ja piirkonda; andmete avaldamispäev ei pruugi olla mõõtmispäev."
+    },
+    {
+      "id": "roheline-liikumine",
+      "name": "Eesti Roheline Liikumine",
+      "topic": "keskkond",
+      "language": "et",
+      "url": "https://roheline.ee/",
+      "feedURL": "https://roheline.ee/feed/",
+      "reviewedAt": "2026-10-15",
+      "description": "Keskkonnaühenduse tegevus, analüüsid ja avalikud seisukohad.",
+      "check": "Erista ühenduse ettepanekut vastu võetud otsusest ning kontrolli arvnäitajate algset uuringut või andmestikku."
+    },
+    {
+      "id": "parnu",
+      "name": "Pärnu linn",
+      "topic": "kohalik",
+      "language": "et",
+      "url": "https://parnu.ee/",
+      "feedURL": "https://parnu.ee/rss-feeds/rss.xml",
+      "reviewedAt": "2026-10-15",
+      "description": "Pärnu linnavalitsuse otsused, teenused ja kohalikud muudatused.",
+      "check": "Vaata, kas teade puudutab Pärnu linna, mõnd osavalda või kogu maakonda ning millal muudatus rakendub."
+    },
+    {
+      "id": "rakvere",
+      "name": "Rakvere linn",
+      "topic": "kohalik",
+      "language": "et",
+      "url": "https://www.rakvere.ee/",
+      "feedURL": "https://www.rakvere.ee/rss-feeds/rss.xml",
+      "reviewedAt": "2026-10-15",
+      "description": "Rakvere linnavalitsuse uudised, linnateenused ja avalikud otsused.",
+      "check": "Ära aja Rakvere linna segi Rakvere vallaga; vaata otsuse tegijat ja täpset tegevuspiirkonda."
+    },
+    {
+      "id": "haapsalu",
+      "name": "Haapsalu linn",
+      "topic": "kohalik",
+      "language": "et",
+      "url": "https://haapsalu.ee/",
+      "feedURL": "https://haapsalu.ee/feed/",
+      "reviewedAt": "2026-10-15",
+      "description": "Haapsalu linnavalitsuse teated, avalik ruum ja teenusekorraldus.",
+      "check": "Erista avalikku arutelu või eelnõu lõplikust otsusest ning kontrolli otsuse rakendumiskuupäeva."
+    },
+    {
+      "id": "valga",
+      "name": "Valga vald",
+      "topic": "kohalik",
+      "language": "et",
+      "url": "https://valga.ee/",
+      "feedURL": "https://valga.ee/feed/",
+      "reviewedAt": "2026-10-15",
+      "description": "Valga valla ametlikud otsused, teenused ja kohaliku elu teated.",
+      "check": "Kontrolli, millist valla asulat ja teenust teade puudutab; Valga vald ja Läti Valka on eri omavalitsused."
+    },
+    {
+      "id": "voru",
+      "name": "Võru linn",
+      "topic": "kohalik",
+      "language": "et",
+      "url": "https://www.voru.ee/",
+      "feedURL": "https://www.voru.ee/rss-feeds/rss.xml",
+      "reviewedAt": "2026-10-15",
+      "description": "Võru linnavalitsuse uudised ja linnaelanikele mõeldud teated.",
+      "check": "Erista Võru linna, Võru valda ja maakonda ning kontrolli näiteks toetuse puhul elukoha tingimust."
+    },
+    {
+      "id": "paide",
+      "name": "Paide linn",
+      "topic": "kohalik",
+      "language": "et",
+      "url": "https://paide.ee/",
+      "feedURL": "https://paide.ee/feed/",
+      "reviewedAt": "2026-10-15",
+      "description": "Paide linnavalitsuse uudised, avalikud teenused ja kohaliku elu otsused.",
+      "check": "Vaata, kas tegemist on otsuse, ettepaneku või taotluskutsega; tähtaja juures kontrolli ka aastat."
+    },
+    {
+      "id": "rae",
+      "name": "Rae vald",
+      "topic": "kohalik",
+      "language": "et",
+      "url": "https://www.rae.ee/",
+      "feedURL": "https://www.rae.ee/rss-feeds/rss.xml",
+      "reviewedAt": "2026-10-15",
+      "description": "Rae valla ametlikud teated, taristu, haridus ja teenused.",
+      "check": "Kontrolli asulat ja aadressi; planeeringu algatamine ei tähenda ehituse alustamist või valmimist."
+    },
+    {
+      "id": "viimsi",
+      "name": "Viimsi vald",
+      "topic": "kohalik",
+      "language": "et",
+      "url": "https://viimsi.ee/",
+      "feedURL": "https://viimsi.ee/rss-feeds/rss.xml",
+      "reviewedAt": "2026-10-15",
+      "description": "Viimsi valla uudised, kohalikud otsused ja teenusemuudatused.",
+      "check": "Vaata, millal ja kellele teenusemuudatus kehtib; ajutine liiklus- või teenusepiirang vajab täpset lõppaega."
+    },
+    {
+      "id": "rapina",
+      "name": "Räpina vald",
+      "topic": "kohalik",
+      "language": "et",
+      "url": "https://www.rapina.ee/",
+      "feedURL": "https://www.rapina.ee/feed/",
+      "reviewedAt": "2026-10-31",
+      "description": "Räpina valla ametlikud uudised, teenused ja avaliku ruumi arendused.",
+      "check": "Erista valminud tööd kavandatavast teenusest ning otsi toetuse tingimuste juurest valla enda otsust."
+    },
+    {
+      "id": "saue",
+      "name": "Saue vald",
+      "topic": "kohalik",
+      "language": "et",
+      "url": "https://www.sauevald.ee/",
+      "feedURL": "https://www.sauevald.ee/rss-feeds/rss.xml",
+      "reviewedAt": "2026-10-15",
+      "description": "Saue valla ametlikud uudised, teenused ja kohaliku elu muudatused.",
+      "check": "Kontrolli, kas teade käib Saue linna või mõne teise valla asula kohta ning kes saab teenust kasutada."
+    },
+    {
+      "id": "soudeliit",
+      "name": "Eesti Sõudeliit",
+      "topic": "sport",
+      "language": "et",
+      "url": "https://www.soudeliit.ee/",
+      "feedURL": "https://www.soudeliit.ee/feed/",
+      "reviewedAt": "2026-10-15",
+      "description": "Sõudmise koondise, võistluste ja Eesti sportlaste tulemuste teated.",
+      "check": "Vaata paadiklassi ja võistlusvooru; eelsõidu koht ei ole võistluse lõppkoht."
+    },
+    {
+      "id": "triatlon",
+      "name": "Eesti Triatloni Liit",
+      "topic": "sport",
+      "language": "et",
+      "url": "https://www.triatlon.ee/",
+      "feedURL": "https://www.triatlon.ee/feed/",
+      "reviewedAt": "2026-10-15",
+      "description": "Triatloni võistlused, koondis ja Eesti sportlaste ametlikud tulemused.",
+      "check": "Kontrolli distantsi ja vanuseklassi; vanuseklassi võit ei tähenda alati üldarvestuse võitu."
+    },
+    {
+      "id": "judo",
+      "name": "Eesti Judoliit",
+      "topic": "sport",
+      "language": "et",
+      "url": "https://judo.ee/",
+      "feedURL": "https://judo.ee/feed/",
+      "reviewedAt": "2026-10-15",
+      "description": "Judokoondise, turniiride ja Eesti judokate tulemuste teated.",
+      "check": "Vaata kaalukategooriat ja turniiri taset ning erista üksikmatši tulemust lõplikust medalist."
+    },
+    {
+      "id": "purjetamine",
+      "name": "Eesti Purjetamise Liit",
+      "topic": "sport",
+      "language": "et",
+      "url": "https://puri.ee/",
+      "feedURL": "https://puri.ee/feed/",
+      "reviewedAt": "2026-10-31",
+      "description": "Purjetamise võistlused, paadiklassid ja Eesti sportlaste teated.",
+      "check": "Erista üksiku võistlussõidu tulemust regati koondtulemusest ning kontrolli paadiklassi."
+    },
+    {
+      "id": "tartu-korvpall",
+      "name": "Tartu Ülikooli korvpallimeeskond",
+      "topic": "sport",
+      "language": "et",
+      "url": "https://basket.ut.ee/",
+      "feedURL": "https://basket.ut.ee/feed/",
+      "reviewedAt": "2026-10-31",
+      "description": "Klubi enda mängutulemused, koosseisuteated ja võistlusuudised.",
+      "check": "Kontrolli vastast, sarja ja lõppskoori; poolajaseis või tulevase mängu tutvustus ei ole lõpptulemus."
+    },
+    {
+      "id": "kalev-korvpall",
+      "name": "Korvpalliklubi Kalev",
+      "topic": "sport",
+      "language": "et",
+      "url": "https://bckalev.ee/",
+      "feedURL": "https://bckalev.ee/feed/",
+      "reviewedAt": "2026-10-31",
+      "description": "Klubi ametlikud mängu-, koosseisu- ja võistlusteated.",
+      "check": "Vaata täpset meeskonda ja võistlussarja; klubi enda hinnang mängule ei ole sõltumatu analüüs."
+    },
+    {
+      "id": "uisuliit",
+      "name": "Eesti Uisuliit",
+      "topic": "sport",
+      "language": "et",
+      "url": "https://www.uisuliit.ee/uudised",
+      "feedURL": "https://www.uisuliit.ee/uudised.rss",
+      "reviewedAt": "2026-10-31",
+      "description": "Uisukoondise, rahvusvaheliste startide ja Eesti uisutajate teated.",
+      "check": "Erista lühi- ja vabakava ning võistluse lõpptulemust; võistlusele sõitmise teade ei kinnita veel tulemust."
+    },
+    {
+      "id": "noorsooteater",
+      "name": "Eesti Noorsooteater",
+      "topic": "kultuur",
+      "language": "et",
+      "url": "https://www.eestinoorsooteater.ee/",
+      "feedURL": "https://www.eestinoorsooteater.ee/feed/",
+      "reviewedAt": "2026-10-15",
+      "description": "Teatri lavastuste, loomingulise töö ja avalike sündmuste enda teated.",
+      "check": "Kontrolli esietenduse tegelikku kuupäeva ja lavastuse autorite rolle; piletimüügi algus pole esietendus."
+    },
+    {
+      "id": "joonisfilm",
+      "name": "Eesti Joonisfilm",
+      "topic": "kultuur",
+      "language": "et",
+      "url": "https://joonisfilm.ee/",
+      "feedURL": "https://joonisfilm.ee/feed/",
+      "reviewedAt": "2026-10-31",
+      "description": "Animastuudio filmide, festivalivalikute ja auhindade ametlikud teated.",
+      "check": "Erista festivalile valimist, nominatsiooni ja võitu; vaata filmi täpset auhinnakategooriat."
+    },
+    {
+      "id": "folk",
+      "name": "Eesti Pärimusmuusika Keskus",
+      "topic": "kultuur",
+      "language": "et",
+      "url": "https://folk.ee/uudised",
+      "feedURL": "https://folk.ee/uudised.rss",
+      "reviewedAt": "2026-10-31",
+      "description": "Pärimusmuusika, Etnokulpide ja keskuse korraldatud sündmuste teated.",
+      "check": "Vaata auhinna aastat ja kategooriat ning seda, kas valiku tegi publik või žürii."
+    },
+    {
+      "id": "jazzliit",
+      "name": "Eesti Jazzliit",
+      "topic": "kultuur",
+      "language": "et",
+      "url": "https://jazz.ee/",
+      "feedURL": "https://jazz.ee/feed/",
+      "reviewedAt": "2026-10-31",
+      "description": "Jazzmuusikute, rahvusvaheliste valikute ja liidu tegevuse teated.",
+      "check": "Eelvalik, lõppvalik ja auhinna võit on eri sündmused; kontrolli täpset valikuastet ja korraldajat."
+    },
+    {
+      "id": "disainerite-liit",
+      "name": "Eesti Disainerite Liit",
+      "topic": "kultuur",
+      "language": "et",
+      "url": "https://www.edl.ee/uudised",
+      "feedURL": "https://www.edl.ee/uudised.rss",
+      "reviewedAt": "2026-10-31",
+      "description": "Disainiauhinnad, näitused, disainerid ja erialaliidu ametlikud teated.",
+      "check": "Võrdle teate avaldamispäeva gala või näituse kuupäevaga ning kontrolli auhinna täpset nimetust."
+    },
+    {
+      "id": "tallinn-fashion-week",
+      "name": "Tallinn Fashion Week",
+      "topic": "kultuur",
+      "language": "et",
+      "url": "https://tfw.ee/",
+      "feedURL": "https://tfw.ee/feed/",
+      "reviewedAt": "2026-10-31",
+      "description": "Moenädala korraldaja programmid, disainerid ja ametlikud pressiteated.",
+      "check": "Vaata, kas jutt käib väljakuulutatud programmist või toimunud sündmusest; korraldaja pildid pole automaatselt vabakasutuses."
+    },
+    {
+      "id": "muusikaauhinnad",
+      "name": "Eesti Muusikaauhinnad",
+      "topic": "kultuur",
+      "language": "et",
+      "url": "https://www.muusikaauhinnad.eu/",
+      "feedURL": "https://www.muusikaauhinnad.eu/feed/",
+      "reviewedAt": "2026-10-31",
+      "description": "Auhinnagala korraldaja teated kandideerimise, nominentide ja võitjate kohta.",
+      "check": "Kontrolli auhinna aastat ning erista kandideerimist, nominatsiooni ja lõplikku võitjat."
+    },
+    {
+      "id": "moonwalk",
+      "name": "Moonwalk",
+      "topic": "kultuur",
+      "language": "et",
+      "url": "https://www.moonwalk.ee/blog",
+      "feedURL": "https://www.moonwalk.ee/blog?format=rss",
+      "reviewedAt": "2026-10-31",
+      "description": "Artistide agentuuri enda teated uuest muusikast ja avalikest esinemistest.",
+      "check": "Erista tulevase loo väljakuulutamist ilmumisest; agentuur esindab artiste ja selle hinnangud ei ole sõltumatu arvustus."
+    },
+    {
+      "id": "legendaarne",
+      "name": "Legendaarne Records",
+      "topic": "kultuur",
+      "language": "et",
+      "url": "https://legendaarne.ee/",
+      "feedURL": "https://legendaarne.ee/feed/",
+      "reviewedAt": "2026-10-31",
+      "description": "Plaadifirma enda artisti-, albumi- ja muusikaväljalasete teated.",
+      "check": "Kontrolli ilmumiskuupäeva ja väljaande täpset nime; eeltellimus või kaubapakkumine ei tõenda uut ilmunud albumit."
+    }
+  ]
+}
