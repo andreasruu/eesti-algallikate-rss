@@ -1,0 +1,381 @@
+{
+  "exportedAtUTC": "2026-10-31T22:48:04.860Z",
+  "publicOrigins": [
+    {
+      "url": "https://uudised.ai/allikad",
+      "httpStatus": 200,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://uudised.ai/allikad.opml",
+      "httpStatus": 200,
+      "contentType": "text/x-opml; charset=utf-8"
+    }
+  ],
+  "counts": {
+    "sources": 42,
+    "rssFeeds": 40,
+    "websiteOnly": 2,
+    "topics": 7
+  },
+  "websiteOnlySources": [
+    {
+      "id": "politsei",
+      "name": "Politsei- ja Piirivalveamet",
+      "url": "https://www.politsei.ee/et/uudised"
+    },
+    {
+      "id": "paasteamet",
+      "name": "Päästeamet",
+      "url": "https://www.rescue.ee/et/uudised"
+    }
+  ],
+  "checks": {
+    "jsonParses": true,
+    "opmlValidXML": true,
+    "opmlVersion": "2.0",
+    "exact40FeedURLsPreserved": true,
+    "opmlPublisherNamesAndHomepageURLsMatchJSON": true,
+    "all42SourcesAndMetadataVerifiedOnPublicPage": true,
+    "uniqueFeedURLs": true,
+    "uniqueSourceIDs": true,
+    "allSourceURLsHTTPS": true,
+    "allowedPublicFieldsOnly": true,
+    "articleBodiesAndImagesIncluded": false,
+    "upstreamFeedsFetchedAgainForExport": false
+  },
+  "previousUpstreamFeedValidation": {
+    "observedAtUTC": "2026-10-31T17:47:10.695Z",
+    "validFeedCount": 40,
+    "failedFeedCount": 0,
+    "scope": "RSS-format/readability snapshot; not a future uptime, freshness, accuracy or reuse-permission guarantee.",
+    "feeds": [
+      {
+        "name": "Riigikontroll",
+        "url": "https://www.riigikontroll.ee/rss-feeds/rss.xml",
+        "checkedAtUTC": "2026-10-31T17:47:00.180Z",
+        "validRSS": true,
+        "itemCount": 100,
+        "newestPublicationUTC": "2026-10-13T06:06:27.000Z"
+      },
+      {
+        "name": "Vabariigi President",
+        "url": "https://president.ee/rss-feeds/rss.xml",
+        "checkedAtUTC": "2026-10-31T17:47:00.195Z",
+        "validRSS": true,
+        "itemCount": 100,
+        "newestPublicationUTC": "2026-10-31T05:37:38.000Z"
+      },
+      {
+        "name": "Kriis.ee",
+        "url": "https://www.kriis.ee/rss-feeds/rss.xml",
+        "checkedAtUTC": "2026-10-31T17:47:00.195Z",
+        "validRSS": true,
+        "itemCount": 100,
+        "newestPublicationUTC": "2026-10-14T06:14:19.000Z"
+      },
+      {
+        "name": "Finantsinspektsioon",
+        "url": "https://www.fi.ee/et/uudised/rss",
+        "checkedAtUTC": "2026-10-31T17:47:00.843Z",
+        "validRSS": true,
+        "itemCount": 500,
+        "newestPublicationUTC": "2026-10-21T13:16:16.000Z"
+      },
+      {
+        "name": "Tööinspektsioon",
+        "url": "https://www.ti.ee/rss-feeds/rss.xml",
+        "checkedAtUTC": "2026-10-31T17:47:00.914Z",
+        "validRSS": true,
+        "itemCount": 100,
+        "newestPublicationUTC": "2026-10-26T08:02:14.000Z"
+      },
+      {
+        "name": "Tervisekassa",
+        "url": "https://tervisekassa.ee/rss.xml",
+        "checkedAtUTC": "2026-10-31T17:47:01.987Z",
+        "validRSS": true,
+        "itemCount": 10,
+        "newestPublicationUTC": "2026-10-28T11:14:20.000Z"
+      },
+      {
+        "name": "Eesti Toiduainetööstuse Liit",
+        "url": "https://toiduliit.ee/feed/",
+        "checkedAtUTC": "2026-10-31T17:47:01.929Z",
+        "validRSS": true,
+        "itemCount": 10,
+        "newestPublicationUTC": "2026-10-30T07:05:05.000Z"
+      },
+      {
+        "name": "Põhja-Eesti Regionaalhaigla",
+        "url": "https://www.regionaalhaigla.ee/rss-feeds/rss.xml",
+        "checkedAtUTC": "2026-10-31T17:47:02.488Z",
+        "validRSS": true,
+        "itemCount": 100,
+        "newestPublicationUTC": "2026-10-30T10:52:10.000Z"
+      },
+      {
+        "name": "Riigi Tugiteenuste Keskus",
+        "url": "https://www.rtk.ee/rss-feeds/rss.xml",
+        "checkedAtUTC": "2026-10-31T17:47:00.882Z",
+        "validRSS": true,
+        "itemCount": 100,
+        "newestPublicationUTC": "2026-10-12T11:34:03.000Z"
+      },
+      {
+        "name": "Sotsiaalkindlustusamet",
+        "url": "https://www.sotsiaalkindlustusamet.ee/rss-feeds/rss.xml",
+        "checkedAtUTC": "2026-10-31T17:47:02.184Z",
+        "validRSS": true,
+        "itemCount": 100,
+        "newestPublicationUTC": "2026-10-30T11:50:10.000Z"
+      },
+      {
+        "name": "Valga Haigla",
+        "url": "https://valgahaigla.ee/feed/",
+        "checkedAtUTC": "2026-10-31T17:47:02.919Z",
+        "validRSS": true,
+        "itemCount": 10,
+        "newestPublicationUTC": "2026-10-30T12:51:42.000Z"
+      },
+      {
+        "name": "Maa- ja Ruumiamet",
+        "url": "https://maaruum.ee/rss-feeds/rss.xml",
+        "checkedAtUTC": "2026-10-31T17:47:03.206Z",
+        "validRSS": true,
+        "itemCount": 100,
+        "newestPublicationUTC": "2026-10-30T09:25:53.000Z"
+      },
+      {
+        "name": "Tartu Tervishoiu Kõrgkool",
+        "url": "https://www.tartuh.ee/feed/",
+        "checkedAtUTC": "2026-10-31T17:47:03.172Z",
+        "validRSS": true,
+        "itemCount": 10,
+        "newestPublicationUTC": "2026-10-20T06:58:36.000Z"
+      },
+      {
+        "name": "Pärnu linn",
+        "url": "https://parnu.ee/rss-feeds/rss.xml",
+        "checkedAtUTC": "2026-10-31T17:47:03.644Z",
+        "validRSS": true,
+        "itemCount": 100,
+        "newestPublicationUTC": "2026-10-27T12:57:13.000Z"
+      },
+      {
+        "name": "Haapsalu linn",
+        "url": "https://haapsalu.ee/feed/",
+        "checkedAtUTC": "2026-10-31T17:47:04.059Z",
+        "validRSS": true,
+        "itemCount": 10,
+        "newestPublicationUTC": "2026-10-29T14:34:02.000Z"
+      },
+      {
+        "name": "Rakvere linn",
+        "url": "https://www.rakvere.ee/rss-feeds/rss.xml",
+        "checkedAtUTC": "2026-10-31T17:47:03.910Z",
+        "validRSS": true,
+        "itemCount": 100,
+        "newestPublicationUTC": "2026-10-29T08:01:30.000Z"
+      },
+      {
+        "name": "Valga vald",
+        "url": "https://valga.ee/feed/",
+        "checkedAtUTC": "2026-10-31T17:47:04.276Z",
+        "validRSS": true,
+        "itemCount": 10,
+        "newestPublicationUTC": "2026-10-29T11:41:47.000Z"
+      },
+      {
+        "name": "Paide linn",
+        "url": "https://paide.ee/feed/",
+        "checkedAtUTC": "2026-10-31T17:47:04.463Z",
+        "validRSS": true,
+        "itemCount": 10,
+        "newestPublicationUTC": "2026-10-30T15:04:02.000Z"
+      },
+      {
+        "name": "Võru linn",
+        "url": "https://www.voru.ee/rss-feeds/rss.xml",
+        "checkedAtUTC": "2026-10-31T17:47:04.447Z",
+        "validRSS": true,
+        "itemCount": 100,
+        "newestPublicationUTC": "2026-10-29T12:34:34.000Z"
+      },
+      {
+        "name": "Eesti Roheline Liikumine",
+        "url": "https://roheline.ee/feed/",
+        "checkedAtUTC": "2026-10-31T17:47:03.433Z",
+        "validRSS": true,
+        "itemCount": 30,
+        "newestPublicationUTC": "2026-10-23T14:44:33.000Z"
+      },
+      {
+        "name": "Viimsi vald",
+        "url": "https://viimsi.ee/rss-feeds/rss.xml",
+        "checkedAtUTC": "2026-10-31T17:47:04.905Z",
+        "validRSS": true,
+        "itemCount": 100,
+        "newestPublicationUTC": "2026-10-30T11:44:33.000Z"
+      },
+      {
+        "name": "Räpina vald",
+        "url": "https://www.rapina.ee/feed/",
+        "checkedAtUTC": "2026-10-31T17:47:05.180Z",
+        "validRSS": true,
+        "itemCount": 8,
+        "newestPublicationUTC": "2026-10-30T15:46:16.000Z"
+      },
+      {
+        "name": "Saue vald",
+        "url": "https://www.sauevald.ee/rss-feeds/rss.xml",
+        "checkedAtUTC": "2026-10-31T17:47:05.234Z",
+        "validRSS": true,
+        "itemCount": 100,
+        "newestPublicationUTC": "2026-10-27T13:27:17.000Z"
+      },
+      {
+        "name": "Rae vald",
+        "url": "https://www.rae.ee/rss-feeds/rss.xml",
+        "checkedAtUTC": "2026-10-31T17:47:04.693Z",
+        "validRSS": true,
+        "itemCount": 100,
+        "newestPublicationUTC": "2026-10-30T08:30:55.000Z"
+      },
+      {
+        "name": "Eesti Judoliit",
+        "url": "https://judo.ee/feed/",
+        "checkedAtUTC": "2026-10-31T17:47:05.972Z",
+        "validRSS": true,
+        "itemCount": 10,
+        "newestPublicationUTC": "2026-10-27T07:12:22.000Z"
+      },
+      {
+        "name": "Eesti Triatloni Liit",
+        "url": "https://www.triatlon.ee/feed/",
+        "checkedAtUTC": "2026-10-31T17:47:05.777Z",
+        "validRSS": true,
+        "itemCount": 10,
+        "newestPublicationUTC": "2026-10-27T08:31:10.000Z"
+      },
+      {
+        "name": "Eesti Sõudeliit",
+        "url": "https://www.soudeliit.ee/feed/",
+        "checkedAtUTC": "2026-10-31T17:47:05.565Z",
+        "validRSS": true,
+        "itemCount": 7,
+        "newestPublicationUTC": "2026-10-31T17:36:40.000Z"
+      },
+      {
+        "name": "Eesti Purjetamise Liit",
+        "url": "https://puri.ee/feed/",
+        "checkedAtUTC": "2026-10-31T17:47:06.335Z",
+        "validRSS": true,
+        "itemCount": 10,
+        "newestPublicationUTC": "2026-10-29T07:57:58.000Z"
+      },
+      {
+        "name": "Eesti Uisuliit",
+        "url": "https://www.uisuliit.ee/uudised.rss",
+        "checkedAtUTC": "2026-10-31T17:47:06.852Z",
+        "validRSS": true,
+        "itemCount": 50,
+        "newestPublicationUTC": "2026-10-29T21:14:39.000Z"
+      },
+      {
+        "name": "Korvpalliklubi Kalev",
+        "url": "https://bckalev.ee/feed/",
+        "checkedAtUTC": "2026-10-31T17:47:06.355Z",
+        "validRSS": true,
+        "itemCount": 10,
+        "newestPublicationUTC": "2026-10-30T08:31:23.000Z"
+      },
+      {
+        "name": "Eesti Joonisfilm",
+        "url": "https://joonisfilm.ee/feed/",
+        "checkedAtUTC": "2026-10-31T17:47:07.635Z",
+        "validRSS": true,
+        "itemCount": 10,
+        "newestPublicationUTC": "2026-10-26T09:16:59.000Z"
+      },
+      {
+        "name": "Eesti Noorsooteater",
+        "url": "https://www.eestinoorsooteater.ee/feed/",
+        "checkedAtUTC": "2026-10-31T17:47:07.317Z",
+        "validRSS": true,
+        "itemCount": 10,
+        "newestPublicationUTC": "2026-10-27T16:07:41.000Z"
+      },
+      {
+        "name": "Tartu Ülikooli korvpallimeeskond",
+        "url": "https://basket.ut.ee/feed/",
+        "checkedAtUTC": "2026-10-31T17:47:06.351Z",
+        "validRSS": true,
+        "itemCount": 10,
+        "newestPublicationUTC": "2026-10-31T07:44:45.000Z"
+      },
+      {
+        "name": "Eesti Pärimusmuusika Keskus",
+        "url": "https://folk.ee/uudised.rss",
+        "checkedAtUTC": "2026-10-31T17:47:08.109Z",
+        "validRSS": true,
+        "itemCount": 50,
+        "newestPublicationUTC": "2026-10-06T00:00:00.000Z"
+      },
+      {
+        "name": "Eesti Jazzliit",
+        "url": "https://jazz.ee/feed/",
+        "checkedAtUTC": "2026-10-31T17:47:08.205Z",
+        "validRSS": true,
+        "itemCount": 10,
+        "newestPublicationUTC": "2026-10-29T21:34:18.000Z"
+      },
+      {
+        "name": "Tallinn Fashion Week",
+        "url": "https://tfw.ee/feed/",
+        "checkedAtUTC": "2026-10-31T17:47:08.608Z",
+        "validRSS": true,
+        "itemCount": 10,
+        "newestPublicationUTC": "2026-10-31T10:00:44.000Z"
+      },
+      {
+        "name": "Eesti Disainerite Liit",
+        "url": "https://www.edl.ee/uudised.rss",
+        "checkedAtUTC": "2026-10-31T17:47:08.538Z",
+        "validRSS": true,
+        "itemCount": 50,
+        "newestPublicationUTC": "2026-10-12T09:57:21.000Z"
+      },
+      {
+        "name": "Legendaarne Records",
+        "url": "https://legendaarne.ee/feed/",
+        "checkedAtUTC": "2026-10-31T17:47:09.174Z",
+        "validRSS": true,
+        "itemCount": 20,
+        "newestPublicationUTC": "2026-10-27T08:51:53.000Z"
+      },
+      {
+        "name": "Moonwalk",
+        "url": "https://www.moonwalk.ee/blog?format=rss",
+        "checkedAtUTC": "2026-10-31T17:47:09.052Z",
+        "validRSS": true,
+        "itemCount": 20,
+        "newestPublicationUTC": "2026-10-27T16:46:55.000Z"
+      },
+      {
+        "name": "Eesti Muusikaauhinnad",
+        "url": "https://www.muusikaauhinnad.eu/feed/",
+        "checkedAtUTC": "2026-10-31T17:47:08.648Z",
+        "validRSS": true,
+        "itemCount": 10,
+        "newestPublicationUTC": "2026-10-22T04:00:00.000Z"
+      }
+    ]
+  },
+  "curatorDisclosure": "Uudised.ai is the curator of this link list and an automated AI news publication without a human editor; it is not listed among these first-party organizational sources.",
+  "rightsNote": "Linked article text, images and other material remain subject to their publishers and rights holders. Public RSS availability is not automatic permission for republication.",
+  "sha256": {
+    "feedsOPML": "4a694f6bf6e850b97179a036f006dd965f438a2c7a4755307ea12e4505eacb1d",
+    "sourcesJSON": "83403f2826e6af7af957474cfe650788ff5dbfab8295a9b2979ebd66ad64e877"
+  }
+}
